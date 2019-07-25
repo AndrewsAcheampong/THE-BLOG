@@ -1,0 +1,175 @@
+
+@import url{'https://fonts.googleapis.com/css?family=Poppins:400,500,700'}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  
+  color: #222;
+}
+.bg-image{
+  /*The image used*/
+  background-image: url(../images/bg2.jpg); 
+  /*add the blur effect*/
+  filter: blur();
+  -webkit-filter: blur();
+
+  /*full height*/
+  height: 100%;
+
+  /*center and scale the image nicely*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg.text{
+  background-color: rgba(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+
+   color: white;
+   font-weight: lighter;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 80%;
+   padding: 20px;
+
+}
+.button{
+  text-align: center;
+}
+
+
+
+
+
+
+
+.navbar{
+  padding: .8rem;
+ /*font-family: 'Poppins', sans-serif;*/
+}
+.navbar-brand{
+  color: #00008B;
+}
+.btn-outline-dark{
+  color: #00008B;
+
+}
+
+.nav-link{
+  color: #00008B; 
+  font-size: 1.1em !important
+}
+/*jumbotro*/
+.lead{
+  color: #00008B;
+}
+.btn-primary{
+  background-color: #00008B;
+  border: 1rem;
+}
+.text-primary{
+  color: #00008B;
+}
+  /*background-color: gray;*/
+  /*background-image:url("/static/images/sch.png");  */
+}
+
+h1 {
+  color: #f1f1f1;
+  /*text-align: center;*/
+}
+
+h2 {
+  /*color: black;
+  text-align: left;*/
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#slides{
+	/*	margin-left: 100px;
+	margin-top: 30px;
+	width: 100%;
+	height: 300px;
+	position: absolute;*/
+}
+footer{ 
+  background-color: #808080;
+  color: #d5d5d5;
+  padding-top: 2rem; 
+
+}
+hr.light{
+  border-top: 1px solid #d5d5d5
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: .1rem;
+}
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: .1rem;
+}
+.font-weight-normal{
+  color: #00008B;
+}
+/*CONNECT*/ 
+
+
+
+
+
+/*Social media icons*/
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*flickr*/
+.fa-flickr {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+/*
